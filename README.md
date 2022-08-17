@@ -6,6 +6,8 @@
  All the info are in the documentation and it's easy if you follow thhe instructions to the letter.
 
  As the app is ready to use via docker, you dont need to install any other software or dependencies.( Bonus point: if you use any Linux version suchh as Ubuntu, you dont need to isntal WSL, just download the files as they are and you are ready to go. Use CMD or PowerShell to cd to the projects directory and execute the following Docker commands to build the Docker image of the App and execute it )
+ 
+# In depth information about the project in the README_STORYTIME.md file
 # Build docker image
 
 docker build -f Dockerfile -t username/node-web-app:1.0 .
