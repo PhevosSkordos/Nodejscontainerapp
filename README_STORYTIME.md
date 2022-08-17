@@ -10,7 +10,7 @@ This assignment was an exciting journey through the technologies of Terraform, A
 The only technology i was familiar with was the Database and deployment of web apps in Virtual Machines.
 Now let's cut to the chase.
 
-My implementation consists of the following:
+### My implementation consists of the following:
 
 A. AWS for Server hosting. Created a windows server and a linux server. Windows Server served me well in order to build and test my nodejs application. Linux provided me the Docker technology which was not available in  my Windows machine due to Docker's system requirements.
 
@@ -38,7 +38,7 @@ After condicting my research (thank you google and various blogs) i found a way 
 I ended up setting an api that performs a health check to the app itself via the get method. Of course it will always return a 200 message as it checks itself when it is already up, but we can set the healthcheck to be applied to another application we wish to check its status. 
 The next check is performed in the cluster set up in Mongo Atlas. Upon succesfull connection to the database we receive the HTTP status 200 with the same HTTP get method.
 
-To summarize it all:
+# Summarry:
 I had no prior experience with the concept of this assignment, but i studied and enjoyed the process of learning and building something from scratch with newly acquired skills. A bumpy and interesting ride!
 I know it is not exactly what you wanted but given the time i had and the almost zero knowledge in SRE and DevOps technologies, it was the best i could offer and i am proud of it. I would love to learn more and implement several projects by joining your team, learn these technologies and put my already gained skills in good use.
 
